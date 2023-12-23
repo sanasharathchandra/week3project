@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quattrocento&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+nav {
+    position: sticky;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+
+nav span {
+    cursor: pointer;
+    padding: 0px 15px;
+    padding-bottom: 10px;
+    color: lightgrey;
+}
+
+nav .icon {
+    padding: 0px 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.topsec {
+    height: 100vh;
+    background-image: url('https://th.bing.com/th/id/OIP.kFGYwKbYoBXrgKQLXrfcbwHaFj?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.topsec #midhead h1 {
+    font-size: 70px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight:600;
+    font-family: 'Quattrocento', serif;
+}
+
+.topsec #midhead {
+    width: 450px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#lastmidhead{
+    width: 350px;
+    margin-left: 60px;
+    text-align: left;
+}
+hr {
+    border: 2px solid #f24c4c;
+}
+.aboutussection{
+    color: white;
+    text-align: center;
+    width: 25vw;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-family: 'Quattrocento', serif;
+}
+.aboutussection-2{
+    color: white;
+    margin-top: 5%;
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-around;
+}
+.aboutussection-2 p{
+    width: 25vw;
+    padding-top: 30px;
+    text-align: left;
+}
+.aboutussection-2 img{
+   width: 20vw;
+   height: 40vh;
+}
+#uptexthead{
+    width: 20vw;
+    border: 1px solid #f24c4c;
+}
+.menu #paragraph{
+    text-align: left;
+    color: #ffffff;
+    margin-left: 25%;
+    margin-top: 3%;
+    width: 45vw;
+}
+#menulist{
+    display: flex;
+    color: white;
+    gap: 20px;
+    
+}
+#menulist img{
+    width: 25%;
+    height: 40%;
+    margin-bottom: 8%;
+}
+#menulist h6{
+    color: yellow;
+    width: 200px;
+}
+#menulist p{
+    color: #ffffff;
+    font-size: small;
+    margin-top: 5%;
+}
+.menu-list{
+    
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+#vir-line{
+   margin-right: 20%;
+   border: 2px solid yellow;
+}
+.sclist{
+    margin-left:10%;
+    width: 80vw;
+    height: 70vh;
+    white-space: nowrap;
+    overflow-x: auto;
+    scroll-behavior:smooth;
+}
+.gallary{
+    margin-left:10vw;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+}
+
+#firstimg{
+    width: 40vw;
+    height:70vh;
+    gap: 50px;
+    border-radius: 0px;
+}
+#secondimg{
+    width: 20vw;
+    gap: 50px;
+    height:78vh;
+}
+#thirdimg{
+    width: 20vw;
+    height: 70vh;
+}
+.findus{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 50vh;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: #ffffff;
+}
+#helporlocation{
+overflow-y:auto;
+    height: 100%;
+    width: 20vw;
+}
+footer{
+    padding: 10px 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+#lasticon{
+    height: 70px;
+}
